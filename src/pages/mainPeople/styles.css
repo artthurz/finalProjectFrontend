@@ -1,0 +1,199 @@
+.people-list {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.people-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.people-list article p {
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.people-list article a {
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #da552f;
+  background: none;
+  margin-top: 10px;
+  color: #da552f;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.people-list article a:hover {
+  background: #da552f;
+  color: #fff;
+}
+
+.people-list .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.people-list .actions button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #da552f;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.people-list .actions button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.people-list .actions button:hover {
+  opacity: 0.7;
+}
+
+.people-list .actions button[disabled]:hover {
+  opacity: 0.5;
+}
+
+.people-list .createButton {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.people-list .createButton button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #01a10e;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.people-list .createButton button:hover {
+  opacity: 0.7;
+}
+
+.createPage {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.createPage .backButton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.createPage .backButton button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #da552f;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.createPage .backButton button:hover {
+  opacity: 0.7;
+}
+
+.form {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.form button {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  display: flex;
+}
+
+.form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #098066;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form button:hover {
+  background: #098066;
+  color: #fff;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.form input {
+  background: rgba(0, 0, 0, 0.438);
+  border: 0;
+  border-radius: 4px;
+  height: 36px;
+  padding: 0 15px;
+  padding: 0 15px;
+  color: #fff;
+  margin: 0 0 10px;
+}
+
+.form input::placeholder {
+  color: #fff;
+}
+
+.backButton a {
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff;
+  color: #da552f;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  max-width: 60px;
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #da552f;
+  background: none;
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.backButton a:hover {
+  background: #da552f;
+  color: #fff;
+}

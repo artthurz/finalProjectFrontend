@@ -1,0 +1,136 @@
+.people-info {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.people-info h1 {
+  font-size: 32px;
+}
+
+.people-info p {
+  color: #666;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.people-info p a {
+  color: #069;
+}
+
+.people-info .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.people-info .edit a {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #098066;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.people-info .edit a:hover {
+  background: #098066;
+  color: #fff;
+}
+
+.people-info .delete a {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #d60f0f;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.people-info .delete a:hover {
+  background: #d60f0f;
+  color: #fff;
+}
+
+.back {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  display: flex;
+}
+
+.back a {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #da552f;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back a:hover {
+  background: #da552f;
+  color: #fff;
+}
+
+.form {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.form button {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  display: flex;
+}
+
+.form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #098066;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form button:hover {
+  background: #098066;
+  color: #fff;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.form input {
+  background: rgba(0, 0, 0, 0.438);
+  border: 0;
+  border-radius: 4px;
+  height: 36px;
+  padding: 0 15px;
+  padding: 0 15px;
+  color: #fff;
+  margin: 0 0 10px;
+}
