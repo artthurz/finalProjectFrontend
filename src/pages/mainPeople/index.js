@@ -85,7 +85,7 @@ export default class MainPeople extends Component {
           style={showPeopleList ? {} : { display: "none" }}
         >
           <div className="createButton">
-            <button onClick={this.handleShowCreate}>Adicionar Produto</button>
+            <button onClick={this.handleShowCreate}>Adicionar Pessoa</button>
           </div>
           {peoples.map((people) => (
             <article key={people._id}>
