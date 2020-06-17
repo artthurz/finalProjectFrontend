@@ -22,10 +22,10 @@
 .product-list article a {
   height: 42px;
   border-radius: 5px;
-  border: 2px solid #da552f;
+  border: 2px solid #6532db;
   background: none;
   margin-top: 10px;
-  color: #da552f;
+  color: #6532db;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
@@ -36,7 +36,7 @@
 }
 
 .product-list article a:hover {
-  background: #da552f;
+  background: #6532db;
   color: #fff;
 }
 
@@ -50,7 +50,7 @@
   padding: 10px;
   border-radius: 5px;
   border: 0;
-  background: #da552f;
+  background: #6532db;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -107,7 +107,7 @@
   padding: 10px;
   border-radius: 5px;
   border: 0;
-  background: #da552f;
+  background: #6532db;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -176,14 +176,14 @@
   padding: 10px;
   border-radius: 5px;
   background: #fff;
-  color: #da552f;
+  color: #6532db;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   max-width: 60px;
   height: 42px;
   border-radius: 5px;
-  border: 2px solid #da552f;
+  border: 2px solid #6532db;
   background: none;
   margin-top: 10px;
   text-decoration: none;
@@ -194,6 +194,6 @@
 }
 
 .backButton a:hover {
-  background: #da552f;
+  background: #6532db;
   color: #fff;
 }

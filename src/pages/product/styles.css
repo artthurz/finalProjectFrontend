@@ -48,7 +48,7 @@
   padding: 10px;
   border-radius: 5px;
   border: 0;
-  background: #d60f0f;
+  background: #6532db;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -57,7 +57,7 @@
 }
 
 .product-info .delete a:hover {
-  background: #d60f0f;
+  background: #6532db;
   color: #fff;
 }
 
