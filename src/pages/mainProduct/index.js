@@ -33,7 +33,7 @@ export default class MainProduct extends Component {
   };
 
   prevPage = () => {
-    const { page, productInfo } = this.state;
+    const { page } = this.state;
 
     if (page === 1) return;
 
@@ -63,7 +63,7 @@ export default class MainProduct extends Component {
     }
   };
   handleCreate = async (data, { resetForm }) => {
-    const response = await api.post(`/products`, data);
+    await api.post(`/products`, data);
     resetForm();
     this.handleShowCreate();
     window.location.reload();

@@ -29,7 +29,7 @@ export default class Product extends Component {
   handleDelete = async () => {
     const { id } = this.props.match.params;
 
-    const response = await api.delete(`/products/${id}`);
+    await api.delete(`/products/${id}`);
     window.location.reload();
   };
 
@@ -47,7 +47,7 @@ export default class Product extends Component {
 
   handleUpdate = async (data, { resetForm }) => {
     const { id } = this.props.match.params;
-    const response = await api.put(`/products/${id}`, data);
+    await api.put(`/products/${id}`, data);
     resetForm();
     window.location.reload();
     this.setState({ showEdit: false });

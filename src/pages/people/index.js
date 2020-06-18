@@ -30,7 +30,7 @@ export default class People extends Component {
   handleDelete = async () => {
     const { id } = this.props.match.params;
 
-    const response = await api.delete(`/peoples/${id}`);
+    await api.delete(`/peoples/${id}`);
     window.location.reload();
   };
 
@@ -48,7 +48,7 @@ export default class People extends Component {
 
   handleUpdate = async (data, { resetForm }) => {
     const { id } = this.props.match.params;
-    const response = await api.put(`/peoples/${id}`, data);
+    await api.put(`/peoples/${id}`, data);
     resetForm();
     window.location.reload();
     this.setState({ showEdit: false });

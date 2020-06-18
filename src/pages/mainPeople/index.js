@@ -34,7 +34,7 @@ export default class MainPeople extends Component {
   };
 
   prevPage = () => {
-    const { page, peopleInfo } = this.state;
+    const { page } = this.state;
 
     if (page === 1) return;
 
@@ -64,7 +64,7 @@ export default class MainPeople extends Component {
     }
   };
   handleCreate = async (data, { resetForm }) => {
-    const response = await api.post(`/peoples`, data);
+    await api.post(`/peoples`, data);
     resetForm();
     this.handleShowCreate();
     window.location.reload();
