@@ -1,8 +1,5 @@
-import React from "react";
-import renderer from "react-test-renderer";
-import Header from "../../components/Header";
+const sum = require("./sum");
 
-it("renders correctly", () => {
-  const main = renderer.create(<Header />).toJSON();
-  expect(main).toMatchSnapshot();
+test("adds 1 + 2 to equal 3", () => {
+  expect(sum(1, 2)).toBe(3);
 });
