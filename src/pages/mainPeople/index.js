@@ -86,7 +86,7 @@ export default class MainPeople extends Component {
         >
           <div className="createButton">
             <button onClick={this.handleShowCreate}>
-              Adicionar Pessoa - Arthur
+              Adicionar Pessoa - Arthur 2
             </button>
           </div>
           {peoples.map((people) => (
